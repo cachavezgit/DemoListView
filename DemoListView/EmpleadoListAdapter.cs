@@ -50,6 +50,7 @@ namespace DemoListView
             convertView.FindViewById<ImageView>(Resource.Id.imageEmpleado).SetImageBitmap(empleadoBitmap);
 
             return convertView;
+            
 
         }
 

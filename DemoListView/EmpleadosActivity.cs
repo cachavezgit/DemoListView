@@ -27,7 +27,20 @@ namespace DemoListView
             empleadoListView.ChoiceMode = ChoiceMode.Multiple;
             empleados = GetEmpleados();
             empleadoListView.Adapter = new EmpleadoListAdapter(this, empleados);
+            empleadoListView.ItemClick += OnListItemClick;
+        }
 
+        private void OnListItemClick(object sender, AdapterView.ItemClickEventArgs e)
+        {
+            var listView = sender as ListView;
+            var empleado = empleados[e.Position];
+
+            Android.Widget.Toast.MakeText
+                (this, $"Seleccion: {empleado.Nombre}", Android.Widget.ToastLength.Short).Show();
+
+            Intent intent = new Intent(this, typeof(EmpleadosDetalleActivity));
+            intent.PutExtra("nombre", empleado.Nombre);
+            StartActivity(intent);
         }
 
         private List<Empleado> GetEmpleados()

@@ -1013,7 +1013,7 @@ application_config:
 
 	.type	.L.autostr.6, @object
 .L.autostr.6:
-	.asciz	"1573c49f-1942-4b1b-be6a-981415dc68c9"
+	.asciz	"1d9f36e6-e5cf-43dd-8f05-fce7336f6233"
 	.size	.L.autostr.6, 37
 
 	.type	.L.autostr.7, @object

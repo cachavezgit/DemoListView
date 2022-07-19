@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EmpleadoListAdapter.cs" />
+    <Compile Include="EmpleadosDetalleActivity.cs" />
     <Compile Include="ImageHelper.cs" />
     <Compile Include="Models\Empleado.cs" />
     <Compile Include="EmpleadosActivity.cs" />
@@ -104,7 +105,7 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_round.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Resources\drawable\" />
+    <AndroidResource Include="Resources\drawable\CustomSelector.xml" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.2.0.5" />
@@ -118,6 +119,11 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\listview_empleados_row.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\activity_empleados_detalle.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

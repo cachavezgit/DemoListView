@@ -309,3 +309,6 @@ C:\Users\cachavez\source\repos\DemoListView\DemoListView\obj\Debug\120\res\layou
 C:\Users\cachavez\source\repos\DemoListView\DemoListView\obj\Debug\120\android\src\crc64f43b2c7734b50d7f\EmpleadoListAdapter.java
 C:\Users\cachavez\source\repos\DemoListView\DemoListView\obj\Debug\120\android\src\crc64f43b2c7734b50d7f\EmpleadoListAdapterViewHolder.java
 C:\Users\cachavez\source\repos\DemoListView\DemoListView\obj\Debug\120\res\layout\listview_empleados_row.xml
+C:\Users\cachavez\source\repos\DemoListView\DemoListView\obj\Debug\120\res\drawable\customselector.xml
+C:\Users\cachavez\source\repos\DemoListView\DemoListView\obj\Debug\120\res\layout\activity_empleados_detalle.xml
+C:\Users\cachavez\source\repos\DemoListView\DemoListView\obj\Debug\120\android\src\crc64f43b2c7734b50d7f\EmpleadosDetalleActivity.java
